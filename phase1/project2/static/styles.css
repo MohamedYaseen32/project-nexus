@@ -1,0 +1,105 @@
+body {
+    font-family: cursive;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#restaurant{
+    font-family:"Matemasie", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+}
+
+#rest {
+    font-size: 50px;
+    font-family: "Matemasie", sans-serif;
+    padding-top: 1px;
+}
+
+header {
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    display: block;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#friend {
+    font-family: monospace;
+    font-style: bold;
+    font-size: large;
+}
+
+#dailySpecials{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+#showSpecials{
+    background: linear-gradient(to right, #eae3f9, #fbc2eb);
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
